@@ -1,0 +1,78 @@
+* {
+
+    box-sizing: border-box;
+
+    color: white;   
+
+}
+
+input, button {
+
+    height: 35px;
+
+    outline: none;
+
+}
+
+input {
+    width: 100%;
+
+    text-align: right;
+
+    border: none;    
+
+    background: #5B5B5D;
+
+    padding-right: 1rem;
+
+    font-size: 2rem;
+
+}
+button {
+
+    background: #828284;
+
+    border: 1px solid #454448;
+
+    font-size: 1rem;
+    
+
+}
+
+button:nth-child(4n+2), button:last-child  {
+
+    background-color: orange;
+
+}
+
+button:hover {
+
+    opacity: .5;
+
+}
+h2{
+    color: teal;
+    text-decoration: underline;
+}
+#heading{
+    color: teal;
+    text-decoration: line-through;
+}
+.headings{
+    color: lime;
+    text-decoration: overline;
+}
+main{
+    width: 150px;
+}
+.button-wrap{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.ac{
+    grid-column: 1/4;
+    background-color: #6a6a6c;
+}
+.zero{
+    grid-column: 1/3;
+}
